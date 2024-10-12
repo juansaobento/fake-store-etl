@@ -1,0 +1,48 @@
+[2024-10-10T20:49:30.552+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/modules/__init__.py
+[2024-10-10T20:49:30.555+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/modules/__init__.py for tasks to queue
+[2024-10-10T20:49:30.564+0000] {logging_mixin.py:190} INFO - [2024-10-10T20:49:30.562+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/modules/__init__.py
+[2024-10-10T20:49:30.616+0000] {logging_mixin.py:190} INFO - [2024-10-10T20:49:30.606+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/modules/__init__.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/modules/__init__.py", line 2, in <module>
+    from .utils import creacion_spark, jdbc_properties, conection_url
+  File "/opt/airflow/dags/modules/utils.py", line 1, in <module>
+    import pyspark as ps
+ModuleNotFoundError: No module named 'pyspark'
+[2024-10-10T20:49:30.620+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/modules/__init__.py
+[2024-10-10T20:49:30.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/modules/__init__.py took 0.128 seconds
+[2024-10-10T20:50:01.440+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/modules/__init__.py
+[2024-10-10T20:50:01.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/modules/__init__.py for tasks to queue
+[2024-10-10T20:50:01.444+0000] {logging_mixin.py:190} INFO - [2024-10-10T20:50:01.443+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/modules/__init__.py
+[2024-10-10T20:50:01.483+0000] {logging_mixin.py:190} INFO - [2024-10-10T20:50:01.473+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/modules/__init__.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/modules/__init__.py", line 2, in <module>
+    from .utils import creacion_spark, jdbc_properties, conection_url
+  File "/opt/airflow/dags/modules/utils.py", line 1, in <module>
+    import pyspark as ps
+ModuleNotFoundError: No module named 'pyspark'
+[2024-10-10T20:50:01.487+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/modules/__init__.py
+[2024-10-10T20:50:01.505+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/modules/__init__.py took 0.070 seconds
+[2024-10-10T20:50:31.938+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/modules/__init__.py
+[2024-10-10T20:50:31.939+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/modules/__init__.py for tasks to queue
+[2024-10-10T20:50:31.943+0000] {logging_mixin.py:190} INFO - [2024-10-10T20:50:31.942+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/modules/__init__.py
+[2024-10-10T20:50:31.986+0000] {logging_mixin.py:190} INFO - [2024-10-10T20:50:31.976+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/modules/__init__.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/modules/__init__.py", line 2, in <module>
+    from .utils import creacion_spark, jdbc_properties, conection_url
+  File "/opt/airflow/dags/modules/utils.py", line 1, in <module>
+    import pyspark as ps
+ModuleNotFoundError: No module named 'pyspark'
+[2024-10-10T20:50:31.990+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/modules/__init__.py
+[2024-10-10T20:50:32.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/modules/__init__.py took 0.076 seconds
